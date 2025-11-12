@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AppLayout from "@/Layouts/AppLayout";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/Components/ui/button";
+import { Card, CardContent } from "@/Components/ui/card";
 import { usePage, Link, router } from "@inertiajs/react";
 import {
     Dialog,
@@ -10,7 +10,7 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 import EditTodoModal from "@/Components/EditTodoModal";
 import ChangeCoverModal from "@/Components/ChangeCoverModal";
 

@@ -9,13 +9,13 @@ import {
     DialogHeader,
     DialogTitle,
     DialogClose,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"; // <-- PERBAIKAN DI SINI
-import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
-import { Field, FieldLabel, FieldGroup } from "@/components/ui/field";
+} from "@/Components/ui/dialog";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input"; // <-- PERBAIKAN DI SINI
+import { Textarea } from "@/Components/ui/textarea";
+import { Checkbox } from "@/Components/ui/checkbox";
+import { Label } from "@/Components/ui/label";
+import { Field, FieldLabel, FieldGroup } from "@/Components/ui/field";
 
 export default function EditTodoModal({ todo, onClose }) {
     const isOpen = !!todo;

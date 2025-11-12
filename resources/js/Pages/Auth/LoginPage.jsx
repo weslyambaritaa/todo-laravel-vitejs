@@ -8,17 +8,17 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import {
     Field,
     FieldLabel,
     FieldDescription,
     FieldGroup,
-} from "@/components/ui/field";
-import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
+} from "@/Components/ui/field";
+import { Alert, AlertTitle, AlertDescription } from "@/Components/ui/alert";
 import { CheckCircle2Icon } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Button } from "@/Components/ui/button";
 
 export default function LoginPage() {
     // Ambil data dari controller Laravel

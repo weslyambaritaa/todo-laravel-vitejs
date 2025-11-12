@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import AppLayout from "@/Layouts/AppLayout";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
 import { useForm, usePage, router, Link } from "@inertiajs/react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/Components/ui/card";
 import {
     Dialog,
     DialogContent,
@@ -13,11 +13,11 @@ import {
     DialogTitle,
     DialogTrigger,
     DialogClose,
-} from "@/components/ui/dialog";
-import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
-import { Field, FieldLabel, FieldGroup } from "@/components/ui/field";
+} from "@/Components/ui/dialog";
+import { Textarea } from "@/Components/ui/textarea";
+import { Checkbox } from "@/Components/ui/checkbox";
+import { Label } from "@/Components/ui/label";
+import { Field, FieldLabel, FieldGroup } from "@/Components/ui/field";
 import EditTodoModal from "@/Components/EditTodoModal";
 
 // --- START: IMPORT RECHARTS DAN ICON BARU ---

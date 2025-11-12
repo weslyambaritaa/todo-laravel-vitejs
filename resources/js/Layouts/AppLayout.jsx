@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"; // PERUBAHAN: Tambahkan useEffect
 import { Link, router, usePage } from "@inertiajs/react"; // PERUBAHAN: Tambahkan usePage
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import Swal from "sweetalert2"; // PERUBAHAN: Import SweetAlert2
 
 export default function AppLayout({ children }) {
