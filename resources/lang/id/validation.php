@@ -177,6 +177,9 @@ return [
         'addLimits' => [
             'required' => 'Batas penggunaan wajib diisi.',
         ],
+        'email' => [
+            'unique' => 'Email telah digunakan.',
+        ],
     ],
 
     /*

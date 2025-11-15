@@ -1,4 +1,3 @@
-
 import React from "react";
 import AuthLayout from "@/Layouts/AuthLayout";
 import {
@@ -88,9 +87,9 @@ export default function RegisterPage() {
                                             }
                                             required
                                         />
-                                        {errors.password && (
+                                        {errors.email && (
                                             <div className="text-sm text-red-600">
-                                                {errors.password}
+                                                {errors.email}
                                             </div>
                                         )}
                                     </Field>
