@@ -63,7 +63,7 @@ class AuthController extends Controller
         $request->validate([
             'name' => 'required|string|max:50',
             'email' => 'required|string|email|max:255|unique:users', // Aturan 'unique:users' akan memicu pesan kustom "Email telah digunakan."
-            'password' => 'required|string',
+            'password' => 'required|string|min:6',
         ]);
 
         // Daftarkan user
